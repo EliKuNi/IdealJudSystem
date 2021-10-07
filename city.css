@@ -1,0 +1,689 @@
+
+
+h3 {
+    font-size: 12pt;
+    padding-top: 5px;
+    padding-left: 1005px;
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 1em white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+}
+
+body
+{
+  background: url('https://i.pinimg.com/originals/77/cc/d1/77ccd16e21f651968ce1682891f4128c.jpg') repeat center center fixed; 
+  background-size: cover; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover;  
+  position: fixed;
+}
+
+#thatDiv
+{
+  position: absolute;
+  width: 50vw;
+  height: 400px; 
+  top: 7vw;
+  left: 10vw;
+  transform: rotateY(35deg);
+  transform-style: preserve-3d;
+}
+
+/* ---- button */
+#thatDiv button
+{
+  border: 0.8vw rgb(3, 196, 3) dashed;
+       /* border-style: ; */
+  background-color: transparent;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 8vw;
+  right: 6vw;
+  width: 6vw;
+  height: 6vw;
+  opacity: 0.8;
+  font-size: 3vw;
+  animation: spin 20s linear infinite;
+}
+
+#thatDiv button:hover
+{
+  background-color: rgb(125,240,250);
+  cursor: pointer;
+}
+
+@keyframes spin
+{
+  0% { transform: rotate(0deg) translateZ(2vw);}
+  100% { transform: rotate(360deg) translateZ(2vw);}
+}
+
+#otherDiv
+{
+  position: absolute;
+  bottom: 1vw;
+  left: 95vw;
+  transform: rotateY(35deg);
+  transform-style: preserve-3d;
+}
+
+/* ---- button */
+#otherDiv button
+{
+  border: 0.8vw orangered dashed;
+  /* border-style: ; */
+  background-color: transparent;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 8vw;
+  right: 6vw;
+  width: 6vw;
+  height: 6vw;
+  opacity: 0.8;
+  font-size: 3vw;
+  animation: spin 20s linear infinite;
+}
+
+#otherDiv button:hover
+{
+  background-color: rgb(125,240,250);
+  cursor: pointer;
+}
+
+#Sources_Law {
+  position: relative;
+  left: 520px;
+  top: 200px;
+  color: black;
+  text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 1em white;
+  font-size:  30px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+@keyframes spin
+{
+  0% { transform: rotate(0deg) translateZ(2vw);}
+  100% { transform: rotate(360deg) translateZ(2vw);}
+}
+
+#thisDiv
+{
+  position: absolute;
+  width: 50vw;
+  height: 10px;
+  top: 31vw;
+  left: 22vw;
+  transform: rotateY(35deg);
+}
+
+#thisDiv button
+{
+  border: 0.8vw red dashed;
+  /* border-style: ; */
+  background-color: transparent;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 8vw;
+  right: 6vw;
+  width: 6vw;
+  height: 6vw;
+  opacity: 0.8;
+  font-size: 3vw;
+  animation: spin 20s linear infinite;
+}
+
+#thisDiv button:hover
+{
+  background-color: rgb(125,240,250);
+  cursor: pointer;
+}
+
+#Statute_Limitations {
+  position: relative;
+  top: 390px;
+  left: 1030px;
+  color: black;
+  text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 1em white;
+  font-size:  30px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+#theDiv
+{
+  position: absolute;
+  width: 50vw;
+  height: 10px;
+  top: 52vw;
+  left: 14vw;
+  transform: rotateY(35deg);
+  transform-style: preserve-3d;
+}
+
+#theDiv button
+{
+  border: 0.8vw purple dashed;
+  /* border-style: ; */
+  background-color: transparent;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 8vw;
+  right: 6vw;
+  width: 6vw;
+  height: 6vw;
+  opacity: 0.8;
+  font-size: 3vw;
+  animation: spin 20s linear infinite;
+}
+
+#theDiv button:hover
+{
+  background-color: rgb(125,240,250);
+  cursor: pointer;
+}
+
+#Contract {
+  position: relative;
+  left: 880px;
+  bottom: 210px;
+  color: black;
+  text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 1em white;
+  font-size:  30px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+} 
+
+#anyDiv
+{
+  position: absolute;
+  width: 10vw;
+  height: 10px;
+  top: 36vw;
+  right: 68vw;
+  transform: rotateY(35deg);
+  transform-style: preserve-3d;
+}
+
+#anyDiv button
+{
+  border: 0.8vw blue dashed;
+  /* border-style: ; */
+  background-color: transparent;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 8vw;
+  right: 6vw;
+  width: 6vw;
+  height: 6vw;
+  opacity: 0.8;
+  font-size: 3vw;
+  animation: spin 20s linear infinite;
+}
+
+#anyDiv button:hover
+{
+  background-color: rgb(125,240,250);
+  cursor: pointer;
+}
+
+#Law_Persons {
+  position: relative;
+  bottom: 10px;
+  left: 200px;
+  color: black;
+  text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 1em white;
+  font-size:  30px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+#idkDiv
+{
+  position: absolute;
+  width: 50vw;
+  height: 10px;
+  top: 30vw;
+  right: 52vw;
+  transform: rotateY(35deg);
+  transform-style: preserve-3d;
+}
+
+#idkDiv button
+{
+  border: 0.8vw fuchsia dashed;
+  /* border-style: ; */
+  background-color: transparent;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 8vw;
+  right: 6vw;
+  width: 6vw;
+  height: 6vw;
+  opacity: 0.8;
+  font-size: 3vw;
+  animation: spin 20s linear infinite;
+}
+
+#idkDiv button:hover
+{
+  background-color: rgb(125,240,250);
+  cursor: pointer;
+}
+
+#Obligation  {
+  position: relative;
+  bottom: 280px;
+  left: 350px;
+  color: black;
+  text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 1em white;
+  font-size:  30px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+#anotherDiv
+{
+  position: absolute;
+  top: 41vw;
+  left: 80vw;
+  transform: rotateY(35deg);
+  transform-style: preserve-3d;
+}
+
+#anotherDiv button
+{
+  border: 0.8vw rgb(0, 183, 255) dashed;
+  /* border-style: ; */
+  background-color: transparent;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 8vw;
+  right: 6vw;
+  width: 6vw;
+  height: 6vw;
+  opacity: 0.8;
+  font-size: 3vw;
+  animation: spin 20s linear infinite;
+}
+
+#anotherDiv button:hover
+{
+  background-color: rgb(125,240,250);
+  cursor: pointer;
+}
+
+#xyzDiv
+{
+  position: absolute;
+  width: 10vw;
+  height: 10px;
+  top: 30vw;
+  right: 83vw;
+  transform: rotateY(35deg);
+  transform-style: preserve-3d;
+}
+
+#xyzDiv button
+{
+  border: 0.8vw yellow dashed;
+  /* border-style: ; */
+  background-color: transparent;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 8vw;
+  right: 6vw;
+  width: 6vw;
+  height: 6vw;
+  opacity: 0.8;
+  font-size: 3vw;
+  animation: spin 20s linear infinite;
+}
+
+#xyzDiv button:hover
+{
+  background-color: rgb(125,240,250);
+  cursor: pointer;
+}
+
+/* Sources of Law Law */
+.popup {
+  display: none;
+  position: absolute;
+  overflow-y: scroll;
+  padding: 10px;
+  width: 600px;
+  left: 50%;
+  margin-left: -300px;
+  height: 450px;
+  top: 30%;
+  margin-top: -100px;
+  background: #FFF;
+  border: 7px solid purple; /* uno de cada color acorde al botón */
+  z-index: 20;
+}
+
+#popup:after {
+  position: fixed;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: white(0, 0, 0, 0.5);
+  z-index: -2;
+}
+
+#popup:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #FFF;
+  z-index: -1;
+}
+
+/* Succession Law */
+.popupk {
+  display: none;
+  position: absolute;
+  overflow-y: scroll;
+  padding: 10px;
+  width: 600px;
+  left: 50%;
+  margin-left: -300px;
+  height: 450px;
+  top: 30%;
+  margin-top: -100px;
+  background: #FFF;
+  border: 7px solid yellow; /* uno de cada color acorde al botón */
+  z-index: 20;
+}
+
+#popupk:after {
+  position: fixed;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: white(0, 0, 0, 0.5);
+  z-index: -2;
+}
+
+#popupk:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #FFF;
+  z-index: -1;
+}
+
+/* Civil Law */
+.popupj {
+  display: none;
+  position: absolute;
+  overflow-y: scroll;
+  padding: 10px;
+  width: 600px;
+  left: 50%;
+  margin-left: -300px;
+  height: 450px;
+  top: 30%;
+  margin-top: -100px;
+  background: #FFF;
+  border: 7px solid limegreen; /* uno de cada color acorde al botón */
+  z-index: 20;
+}
+
+#popupj:after {
+  position: fixed;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: white(0, 0, 0, 0.5);
+  z-index: -2;
+}
+
+#popupj:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #FFF;
+  z-index: -1;
+}
+
+/* Civil Liability */
+.popupl {
+  display: none;
+  position: absolute;
+  overflow-y: scroll;
+  padding: 10px;
+  width: 600px;
+  left: 50%;
+  margin-left: -300px;
+  height: 450px;
+  top: 30%;
+  margin-top: -100px;
+  background: #FFF;
+  border: 7px solid red; /* uno de cada color acorde al botón */
+  z-index: 20;
+}
+
+#popupl:after {
+  position: fixed;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: white(0, 0, 0, 0.5);
+  z-index: -2;
+}
+
+#popupl:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #FFF;
+  z-index: -1;
+}
+
+/* Statute of Limitations */
+.popupf {
+  display: none;
+  position: absolute;
+  overflow-y: scroll;
+  padding: 10px;
+  width: 600px;
+  left: 50%;
+  margin-left: -300px;
+  height: 450px;
+  top: 30%;
+  margin-top: -100px;
+  background: #FFF;
+  border: 7px solid rgb(255, 111, 15); /* uno de cada color acorde al botón */
+  z-index: 20;
+}
+
+#popupf:after {
+  position: fixed;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: white(0, 0, 0, 0.5);
+  z-index: -2;
+}
+
+#popupf:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #FFF;
+  z-index: -1;
+}
+
+/* Law of Persons */
+.popupy {
+  overflow-y: scroll;
+  display: none;
+  position: absolute;
+  padding: 10px;
+  width: 600px;
+  left: 50%;
+  margin-left: -300px;
+  height: 450px;
+  top: 30%;
+  margin-top: -100px;
+  background: #FFF;
+  border: 7px solid blue; /* uno de cada color acorde al botón */
+  z-index: 20;
+}
+
+#popupy:after {
+  position: fixed;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: white(0, 0, 0, 0.5);
+  z-index: -2;
+}
+
+#popupy:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #FFF;
+  z-index: -1;
+}
+
+#Succession_Law {
+  position: relative;
+  bottom: 400px;
+  left: 30px;
+  color: black;
+  text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 1em white;
+  font-size:  30px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+#Civil_Liability {
+  position: relative;
+  bottom: 80px;
+  left: 700px;
+  color: black;
+  font-size:  30px;
+  text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 1em white;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+/* The Obligation */
+.popupz {
+  overflow-y: scroll;
+  display: none;
+  position: absolute;
+  padding: 10px;
+  width: 600px;
+  left: 50%;
+  margin-left: -300px;
+  height: 450px;
+  top: 30%;
+  margin-top: -100px;
+  background: #FFF;
+  border: 7px solid fuchsia; /* uno de cada color acorde al botón */
+  z-index: 20;
+}
+
+#popupz:after {
+  position: fixed;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: white(0, 0, 0, 0.5);
+  z-index: -2;
+}
+
+#popupz:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #FFF;
+  z-index: -1;
+}
+
+/* Tort Law */
+.popupd {
+  display: none;
+  overflow-y: scroll;
+  position: absolute;
+  padding: 10px;
+  width: 600px;
+  left: 50%;
+  margin-left: -300px;
+  height: 450px;
+  top: 30%;
+  margin-top: -100px;
+  background: #FFF;
+  border: 7px solid rgb(104, 202, 202); /* uno de cada color acorde al botón */
+  z-index: 20;
+}
+
+#popupd:after {
+  position: fixed;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: white(0, 0, 0, 0.5);
+  z-index: -2;
+}
+
+#popupd:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #FFF;
+  z-index: -1;
+}
+
+#Family_Law {
+  position: relative;
+  top: 120px;
+  left: 600px;
+  color: black;
+  text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 1em white;
+  font-size:  30px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}

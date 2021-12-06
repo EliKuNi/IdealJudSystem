@@ -19,7 +19,7 @@ $ = function(id) {
 }
 
 var show = function(id) {
-	$(id).style.display ='block'; bvvvvvvvvvvvvvb
+	$(id).style.display ='block'; 
 }
 var hide = function(id) {
 	$(id).style.display ='none';
